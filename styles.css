@@ -1,0 +1,40 @@
+body {
+  background: hsla(248, 32%, 27%, 1);
+
+  background: linear-gradient(
+    45deg,
+    hsla(248, 32%, 27%, 1) 50%,
+    hsla(120, 92%, 76%, 1) 50%
+  );
+
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(248, 32%, 27%, 1) 50%,
+    hsla(120, 92%, 76%, 1) 50%
+  );
+
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(248, 32%, 27%, 1) 50%,
+    hsla(120, 92%, 76%, 1) 50%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#352F5B", endColorstr="#89FA89", GradientType=1 );
+}
+.container {
+  max-width: 400px;
+}
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+.todos li {
+  background: #423a6f;
+  color: #fff;
+}
+.delete {
+  cursor: pointer;
+}
