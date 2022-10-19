@@ -29,16 +29,12 @@
                 </span>
                 <i class="far fa-trash-alt delete"></i>
             </li>
-        </ul>
-        <ul class="list-group todos mx-auto text-light">
             <li class="list-group-item d-flex justify-content-between align-items-center">
                 <span>
                     Learn Programming
                 </span>
                 <i class="far fa-trash-alt delete"></i>
             </li>
-        </ul>
-        <ul class="list-group todos mx-auto text-light">
             <li class="list-group-item d-flex justify-content-between align-items-center">
                 <span>
                     Drink water
@@ -49,6 +45,9 @@
         <form class="add text-center my-4">
             <label class="text-light">Add a new todo...</label>
             <input type="text" class="form-control m-auto" name="add" />
+            <div id='todo-feedback' class="invalid-feedback">
+                Please provide some text.
+            </div>
         </form>
     </div>
 
